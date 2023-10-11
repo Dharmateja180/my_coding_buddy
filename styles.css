@@ -1,0 +1,111 @@
+/* Reset some default browser styles */
+body, h1, h2, p, ul, li, form {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color and text color for the entire site */
+body {
+    background-color: #f0f0f0;
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the header */
+header {
+    background-color: #0078d4;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header a {
+    color: #fff; /* Set the text color to white */
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 10px; /* Add some spacing between the title and the "Log In" link */
+}
+
+/* Change the background color of the "Log In" link on hover */
+header a:hover {
+    background-color: rgba(0, 0, 0, 0.1); /* Semi-transparent background color on hover */
+    border-radius: 4px;
+    padding: 4px 8px; /* Add padding to the link on hover */
+}
+/* Style the main content area */
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Style links */
+a {
+    color: #0078d4;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Style buttons */
+button {
+    background-color: #0078d4;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #005a9e;
+}
+
+/* Style forms */
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Style the footer */
+footer {
+    background-color: #0078d4;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Style the resources page */
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+/* Additional styles specific to each page can be added here */
